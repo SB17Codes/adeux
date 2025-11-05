@@ -56,6 +56,14 @@
   * {
     border-color: hsl(var(--border));
   }
+  html {
+    min-height: 100%;
+  }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
   body {
     min-height: 100svh;
     background:

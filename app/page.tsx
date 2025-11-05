@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
       <SignedOut>
-        <div className="relative flex min-h-screen flex-col overflow-hidden px-6 pb-12 pt-14">
+        <div className="relative flex min-h-screen flex-col overflow-hidden px-4 pb-12 pt-14 sm:px-6">
           <div className="pointer-events-none absolute -left-28 top-32 h-72 w-72 rounded-full bg-[hsl(var(--secondary))]/35 blur-[140px]" />
           <div className="pointer-events-none absolute -right-10 top-0 h-64 w-64 rounded-full bg-[hsl(var(--primary))]/35 blur-[140px]" />
           <div className="pointer-events-none absolute inset-x-10 bottom-0 h-48 rounded-full bg-[hsl(var(--accent))]/30 blur-[120px]" />
 
           <div className="z-10 mx-auto flex w-full max-w-md flex-1 flex-col justify-center">
-            <div className="w-full rounded-[2rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--surface))]/85 p-10 text-center shadow-[0_30px_80px_-40px_hsl(220_70%_20%/0.7)] backdrop-blur-xl">
+            <div className="w-full rounded-[2rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--surface))]/85 p-6 text-center shadow-[0_30px_80px_-40px_hsl(220_70%_20%/0.7)] backdrop-blur-xl sm:p-10">
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--primary))]/40 bg-[hsl(var(--primary))]/10 px-4 py-2 text-sm font-medium text-[hsl(var(--text-medium))]">
                 <span aria-hidden>✨</span> Shared home hub
               </div>

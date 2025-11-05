@@ -25,7 +25,7 @@ export default function Navigation() {
   return (
     <>
       <nav className="sticky top-0 z-40 hidden border-b border-[hsl(var(--border))]/45 bg-[hsl(var(--background))]/85 backdrop-blur-xl transition md:block">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
           <div className="text-xs font-semibold uppercase tracking-[0.32em] text-[hsl(var(--text-muted))]">
             À Deux
           </div>
@@ -53,7 +53,7 @@ export default function Navigation() {
         </div>
       </nav>
 
-      <nav className="fixed inset-x-0 bottom-0 z-50 px-5 pb-[calc(env(safe-area-inset-bottom)+1.25rem)] md:hidden">
+      <nav className="fixed inset-x-0 bottom-0 z-50 px-4 pb-[calc(env(safe-area-inset-bottom)+1.25rem)] sm:px-5 md:hidden">
         <div className="mx-auto flex w-full max-w-lg items-center justify-between gap-1 rounded-[2.5rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--background))]/90 px-4 py-3 shadow-[0_24px_60px_-30px_hsl(220_70%_20%/0.7)] backdrop-blur-xl">
           {links.map((link) => {
             const isActive = pathname === link.href;

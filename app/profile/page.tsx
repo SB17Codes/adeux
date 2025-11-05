@@ -20,7 +20,7 @@ export default function ProfilePage() {
   return (
     <div className="relative min-h-screen pb-36 pt-4">
       <Navigation />
-      <main className="mx-auto w-full max-w-5xl px-5 pb-16 pt-6">
+      <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-6 sm:px-6">
         <header className="mb-8 flex flex-col gap-3">
           <div className="text-xs font-semibold uppercase tracking-[0.32em] text-[hsl(var(--text-muted))]">Profile</div>
           <h1 className="text-balance text-3xl font-semibold text-[hsl(var(--text-high))]">
@@ -32,7 +32,7 @@ export default function ProfilePage() {
         </header>
 
         <section className="grid gap-6 md:grid-cols-2">
-          <div className="rounded-[1.75rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--surface))]/80 p-6 shadow-[0_22px_55px_-32px_hsl(220_70%_20%/0.65)] backdrop-blur">
+          <div className="rounded-[1.75rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--surface))]/80 p-4 shadow-[0_22px_55px_-32px_hsl(220_70%_20%/0.65)] backdrop-blur sm:p-6">
             <div className="flex items-center gap-4">
               <div className="relative">
                 <div className="absolute inset-0 -z-10 rounded-full bg-[hsl(var(--primary))]/35 blur-2xl" />
@@ -67,7 +67,7 @@ export default function ProfilePage() {
             </dl>
           </div>
 
-          <div className="flex h-full flex-col justify-between gap-6 rounded-[1.75rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--surface))]/80 p-6 shadow-[0_22px_55px_-32px_hsl(220_70%_20%/0.65)] backdrop-blur">
+          <div className="flex h-full flex-col justify-between gap-6 rounded-[1.75rem] border border-[hsl(var(--border))]/35 bg-[hsl(var(--surface))]/80 p-4 shadow-[0_22px_55px_-32px_hsl(220_70%_20%/0.65)] backdrop-blur sm:p-6">
             <div>
               <h2 className="text-lg font-semibold text-[hsl(var(--text-high))]">Theme</h2>
               <p className="mt-2 text-sm text-[hsl(var(--text-medium))]">
